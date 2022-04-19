@@ -38,7 +38,7 @@ Brian Kiplangat
 - Create a database 
   ```bash
   psql
-  CREATE DATABASE instagram;
+  CREATE DATABASE neyba;
   ```
 
 - Create .env file and paste the following filing where appropriate:
