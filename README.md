@@ -58,7 +58,7 @@ Brian Kiplangat
 
 - Run initial migration
   ``` bash
-  python3.8 manage.py makemigrations instaclone
+  python3.8 manage.py makemigrations neyba
   python3.8manage.py migrate
   ```
 
