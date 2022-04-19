@@ -64,11 +64,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'NEYBA.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-MODE=config("MODE", default="dev")
+MODE=config("MODE", default="prod")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 # development
-if config('MODE')=="dev":
+if config('MODE')=="prod":
    DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
